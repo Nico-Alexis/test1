@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content="Club de video">
+    <meta name="keywords" content="peliculas, videos, cine, series">
+    <meta property="og:title" content="Club de video">
+    <meta>
+    <title>Club de Videos</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><!--- COMENTARIO -->
+            <h1>Club videos</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#peliculas">Peliculas</a></li>
+                <li><a href="#series">Series</a></li>
+                <li><a href="#actores">Actores</a></li>
+                <li><a href="#comentarios">Comentarios</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <p>===============================================================</p>
+            <h1>Inicio</h1>
+            <h2>Bienvenidos al Club de Videos</h2>
+            <p>Aquí encontraras el mejor Entretenimiento!</p>
+            <button>Ver Peliculas</button>
+            <button>Ver Series</button>
+        </section>
+        <section id="peliculas">
+            <p>===============================================================</p>
+            <h1>Peliculas</h1>
+            <h2>Peliculas Destacadas</h2>
+            <article itemscope itemtype="https://mipagina/movie">
+                <img src="Images/images.jpg" alt="Pelicula Italiana" itemprop="Pelicula Italiana">
+                <h3 itemprop="name">Tito Calderon</h3>
+                <p itemprop="description">La historia de un fantasma</p>
+                <span itemprop="director">Director: Tito Calderon (Momo)</span>
+                <span itemprop="published">| Año: 1967</span>
+            
+            </article>
+            <article></article>
+            <article></article>
+        </section>
+        <section id="comentarios">
+            <p>===============================================================</p>
+            <h1>Comentarios</h1>
+        <form action="#" method="POST">
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required minlength="4">
+            </div>
+            <p></p>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <p></p>
+            <div>
+                <label for="mensaje">Mensaje: </label>
+                <textarea name="mensaje" id="mensaje" required minlength="12"></textarea>
+            </div>
+            <p></p>
+            <div>
+                <input type="submit" value="Enviar Comentario">
+            </div>
+        </form>
+        </section>
+        <section id="reseñas">
+            <p>===============================================================</p>
+            <h1>Reseñas</h1>
+            <h2>Usuarios</h2>
+            <blockquote>
+                "Hay muy buenas peliculas"
+                <cite>- Pedro Sanchez</cite>
+            </blockquote>
+            <blockquote>
+                "Excelente Calidad de resolucion!"
+                <cite>- Nicolas Maduro</cite>
+            </blockquote>
+        </section>
+    </main>
+</body>
+</html>
